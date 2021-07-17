@@ -1,6 +1,6 @@
 <?php 
   session_start();
-  require 'database.php';
+ include  'database.php';
  ?>
 <!DOCTYPE html>
 <html class="h-100">
@@ -77,11 +77,11 @@
 
 										<div class="camp cp1">
 											<label for="user">Usuario</label>
-					<input id="user" type="text" name="email" placeholder="admin" required>
+<input id="user" type="text" name="email" placeholder="admin" required>
 										</div>
 										<div class="camp cp2 mt-3">
 											<label for="pass">Contraseña</label>
-											<input id="pass" type="password" name="password" placeholder="******" required>
+<input id="pass" type="password" name="password" placeholder="******" required>
 										</div>
 										<div id="TextoLogin" class="text-center mt-1">
 
@@ -104,16 +104,16 @@
 		</div>
 		<!-- Final del proyecto -->
 		<!-- jQuery -->
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery-ui.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery-ui.js"></script>
 		<!-- Bootstrap tooltips -->
-		<script type="text/javascript" src="js/popper.min.js"></script>
+		<script type="text/javascript" src="assets/js/popper.min.js"></script>
 		<!-- Bootstrap core JavaScript -->
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 		<!-- MDB core JavaScript -->
-		<script type="text/javascript" src="js/mdb.min.js"></script>
+		<script type="text/javascript" src="assets/js/mdb.min.js"></script>
 		<!-- Your custom scripts (optional) -->
-		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="assets/js/main.js"></script>
 		<script>
 			new WOW().init();
 		</script>

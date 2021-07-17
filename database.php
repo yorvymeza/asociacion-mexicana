@@ -10,7 +10,7 @@ try {
 		$conn = new PDO("mysql:
    		             host=$server; 
    		             dbname=$database;
-   		             $username;", 
+   		              $username;", 
    		              $username,
    		              $password);
 	

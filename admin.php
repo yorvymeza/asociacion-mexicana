@@ -1,5 +1,5 @@
 <?php 
-include('database.php');
+ include  'database.php';
   session_start();
   
 
@@ -47,10 +47,15 @@ include('database.php');
 			<div class="col-9">
 				<div class="header-menu pr-4 text-right">
 					<ul class="ul l-h l-m-h-1">
-						<li><a class="w-500 c-blanco" href="#app">Inicio</a></li>
-						<li><a class="w-500 c-blanco" href="#app">Asistencia</a></li>
-						<li><a class="w-500 c-blanco" href="#app">Agregar Usuario</a></li>
-						<li><a class="w-500 c-blanco" href="#app">Areas</a></li>
+						<li><a class="w-500 c-blanco" href="">Inicio</a></li>
+						<li><a class="w-500 c-blanco" href="">Asistencia</a></li>
+						  <li>
+					      <a class="w-500 c-blanco" href="usuarios.php">Agregar Usuario
+							</a>
+						 </li>
+						<li>
+							<a class="w-500 c-blanco" href="area.php">Areas</a>
+						</li>
 						<li><a class="w-500 c-blanco" href="#feautures">Graficas</a></li>
 						<li><a class="w-500 c-blanco" href="#feautures">Eventos</a></li>
 						<li><a class="w-500 c-blanco" href="#feautures">Escuelas</a></li>
@@ -182,34 +187,19 @@ include('database.php');
 	</div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 <!-- Final del proyecto -->
 	<!-- jQuery -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-ui.js"></script>
 	<!-- Bootstrap tooltips -->
-	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="assets/js/popper.min.js"></script>
 	<!-- Bootstrap core JavaScript -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<!-- MDB core JavaScript -->
-	<script type="text/javascript" src="js/mdb.min.js"></script>
+	<script type="text/javascript" src="assets/js/mdb.min.js"></script>
 	<!-- Your custom scripts (optional) -->
-	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
 	<script>
 	  new WOW().init();
 	</script>
